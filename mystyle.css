@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: lightgray;
+}
+
+main {
+    width: 500px;
+    background-color: white;
+    margin: auto;
+    padding: 15px;
+}
+
+main h1, 
+.header-text {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid gray;
+}
+
+label {
+    margin-bottom: 3px;
+}
+
+label, 
+input {
+    display: block;
+}
+
+input, 
+select {
+    margin-bottom: 20px;
+}
+
+input {
+    width: 200px;
+    font-size: 16px;
+    padding: 3px;
+}
+
+select {
+    width: 210px;
+    font-size: 16px;
+    padding: 3px;
+}
+
+input[type='submit'] {
+    width: 80px;
+}
+
+.top-link {
+    display: block;
+    margin-bottom: 5px;
+}
+
+li {
+    list-style: none;
+}
+
+li span {
+    float: right;
+}
+
+.last-item {
+    border-top: 1px solid grey;
+    padding-top: 5px;
+    margin-top: 5px;
+}
